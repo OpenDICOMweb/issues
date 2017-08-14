@@ -1,0 +1,17 @@
+name: issues
+description: ODW/SDK Parsing and Values Issues
+version: 0.6.0
+author: Jim Philbin <mailto:jfphilbin@gmail.com>
+
+homepage: https://github.com/OpenDICOMweb/issues
+
+environment:
+  sdk: '>=1.24.2 <2.0.0'
+
+dependencies:
+  tag:
+    path: C:/odw/sdk/tag
+    version: 0.6.0
+
+dev_dependencies:
+  test: ^0.12.0
